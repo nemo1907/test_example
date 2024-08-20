@@ -173,7 +173,7 @@ struct CardInfoView: View {
             Text(user.name)
                 .font(.system(size: 30))
                 .fontWeight(.bold)
-            Text(" \(user.age)")
+            Text(String(format: "%d", user.age))
                 .font(.system(size: 29))
                 .fontWeight(.regular)
         }
@@ -219,7 +219,7 @@ struct CardInfoView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        let sampleUser = User(name: "Test", age: 33, desc: "ABCXYZ", images: ["img_wall_e", "img_wall_e_1", "img_wall_e_2"])
+        let sampleUser = User(name: "Test", age: 2008, desc: "ABCXYZ", images: ["img_wall_e", "img_wall_e_1", "img_wall_e_2"])
         
         @State var translation: CGSize = .zero
         @State var activeState: CardView.CardState? = nil
