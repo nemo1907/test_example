@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "frozen-disney-2013-movie-princess-elsa-wallpaper-preview.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
